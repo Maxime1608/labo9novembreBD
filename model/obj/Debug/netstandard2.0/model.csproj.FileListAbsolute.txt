@@ -1,0 +1,9 @@
+D:\IG3\BDAvance\labo9novembreBD\model\obj\Debug\netstandard2.0\model.csprojAssemblyReference.cache
+D:\IG3\BDAvance\labo9novembreBD\model\obj\Debug\netstandard2.0\model.csproj.CoreCompileInputs.cache
+D:\IG3\BDAvance\labo9novembreBD\model\obj\Debug\netstandard2.0\model.AssemblyInfoInputs.cache
+D:\IG3\BDAvance\labo9novembreBD\model\obj\Debug\netstandard2.0\model.AssemblyInfo.cs
+D:\IG3\BDAvance\labo9novembreBD\model\bin\Debug\netstandard2.0\model.deps.json
+D:\IG3\BDAvance\labo9novembreBD\model\bin\Debug\netstandard2.0\model.dll
+D:\IG3\BDAvance\labo9novembreBD\model\bin\Debug\netstandard2.0\model.pdb
+D:\IG3\BDAvance\labo9novembreBD\model\obj\Debug\netstandard2.0\model.dll
+D:\IG3\BDAvance\labo9novembreBD\model\obj\Debug\netstandard2.0\model.pdb
