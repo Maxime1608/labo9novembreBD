@@ -1,5 +1,9 @@
+using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Microsoft.EntityFrameworkCore;
+using model;
+using System.Threading.Tasks;
+
 
 namespace tests
 {
@@ -8,11 +12,11 @@ namespace tests
     {
         CompanyContext _context;
         [TestInitialize]
-        public void TestMethod1()
+        public void addACustomer()
         {
             DbContextOptionsBuilder builder = new DbContextOptionsBuilder();
 
-            DbContextOptions options = builder.UseSqlServer(@"Data source=ADRESSE_SERVEUR; Initial Catalog=VOTRE_DB; User Id=VOTRE_USER; Password=VOTRE_PASSWORD").Options;
+            DbContextOptions options = builder.UseSqlServer(@"Data source=MSI; Initial Catalog=laboPostToussaint; User Id=test; Password=test1").Options;
         
             _context = new CompanyContext(options);
             _context.Database.EnsureDeleted();
@@ -22,7 +26,7 @@ namespace tests
                 PostCode="5000",
                 City="Namur",
                 AccountBalance=12,
-                nameof="Doe",
+                Name="Doe",
                 Country="Belgique",
                 EMail="info@doe.com",
                 Remark="Client suspect"

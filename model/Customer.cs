@@ -4,16 +4,16 @@ namespace model
 {
     public class Customer
     {
-        double AccountBalance { get; set; }
-        string AddressLine1 { get; set; }
-        string AddressLine2 { get; set; }
-        string City { get; set; }
-        string Country { get; set; }
-        string EMail { get; set; }
-        long Id { get; set; }
-        string Name { get; set; }
-        string PostCode { get; set; }
-        string Remark { get; set; }
+        public double AccountBalance { get; set; }
+        public string AddressLine1 { get; set; }
+        public string AddressLine2 { get; set; }
+        public string City { get; set; }
+        public string Country { get; set; }
+        public string EMail { get; set; }
+        public long Id { get; set; }
+        public string Name { get; set; }
+        public string PostCode { get; set; }
+        public string Remark { get; set; }
 
         public Customer (){
             
